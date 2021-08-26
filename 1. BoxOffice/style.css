@@ -1,0 +1,35 @@
+main {  
+  width: 1060px;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+}
+
+main > .title {
+  border-bottom: 2px solid #BDBDBD;
+  text-align: center;
+  padding: 37px 0;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+main > ul.tab-menu {
+  border: 2px solid red;
+
+  display: flex;
+  justify-content: space-between; 
+
+  width: 372px; 
+
+  margin: 28px auto;
+}
+
+main > ul.tab-menu li.menu-item {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+}
