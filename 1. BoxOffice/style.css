@@ -3,11 +3,19 @@ main {
   width: 1060px;
   margin: 0 auto;
   background-color: #F2F2F2;
+
+  border: 2px solid #BDBDBD;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
 main > .title {
   border-bottom: 2px solid #BDBDBD;
   text-align: center;
+
+  width: 650px;
+
+  margin: 0 auto;
   padding: 37px 0;
 
   font-style: normal;
