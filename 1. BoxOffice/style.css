@@ -1,4 +1,5 @@
 main {  
+  box-sizing: border-box;
   width: 1060px;
   margin: 0 auto;
   background-color: #F2F2F2;
@@ -17,8 +18,6 @@ main > .title {
 }
 
 main > ul.tab-menu {
-  border: 2px solid red;
-
   display: flex;
   justify-content: space-between; 
 
@@ -29,7 +28,22 @@ main > ul.tab-menu {
 
 main > ul.tab-menu li.menu-item {
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+}
+
+main > ul.tab-menu li.menu-item:first-child {
+  font-weight: 900;
+}
+
+main > .movie-container {
+  box-sizing: border-box;
+  
+  width: 1003px;
+  margin: 0 auto;
+
+  border: 2px solid #BDBDBD;
+  border-radius: 15px;
+
+  background-color: white;
 }
