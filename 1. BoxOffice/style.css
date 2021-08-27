@@ -2,6 +2,8 @@ main {
   box-sizing: border-box;
   width: 1060px;
   margin: 0 auto;
+  padding: 28px;
+
   background-color: #F2F2F2;
 
   border: 2px solid #BDBDBD;
@@ -48,10 +50,97 @@ main > .movie-container {
   box-sizing: border-box;
   
   width: 1003px;
+  
   margin: 0 auto;
+  padding: 26px;
 
   border: 2px solid #BDBDBD;
   border-radius: 15px;
 
   background-color: white;
 }
+
+.movie-item-container .movie-item {
+  box-sizing: border-box;
+
+  width: 220px;
+
+  border: 1px solid #BDBDBD;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+  border-radius: 10px;
+}
+
+.movie-item-container .movie-item .movie-info {
+  margin: 20px 20px 0 20px;
+}
+
+.movie-info .movie-poster {
+  margin-bottom: 11px;
+}
+
+.movie-info .movie-title {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.movie-info .movie-desc  {
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.movie-info .movie-desc > div > span:first-child {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+
+  text-align: center;
+
+  margin-left: 5px;
+
+  color: #828282;
+}
+
+.movie-info .movie-desc > div > span:nth-child(2) {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: black;
+}
+
+.movie-item .movie-option {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2; 
+  
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid #BDBDBD;
+} 
+
+.movie-item .movie-option div {
+  flex: 1;
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  padding: 9px 15px;
+}
+
+.movie-booking {
+  border-right: 1px solid #BDBDBD;
+}
+
+/* .movie-desc .moive-rate img {
+  line-height: 19px;
+  width: 14px;
+  height: 14px;
+} */
